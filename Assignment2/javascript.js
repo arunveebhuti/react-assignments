@@ -83,3 +83,24 @@ var dispSweet = function() {
 };
 
 dispAll();
+
+function search() {
+    var x = document.getElementById("searchText").value;
+   if(x=="sweet"){
+       dispSweet();
+   }
+   else if(x=="cake"){
+    dispCake();
+}
+else if(x=="cupcake"){
+    dispCupCake();
+}
+else if(x=="doughnut"){
+    dispDoughnut();
+}
+else {
+ 
+    dispAll();
+}
+   
+  }
