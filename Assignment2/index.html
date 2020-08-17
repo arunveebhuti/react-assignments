@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script defer src='javascript.js'></script>
 <link rel = "stylesheet" type = "text/css" href = "./style.css" />
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -14,11 +14,28 @@
     </div>
     <br><br>
     <center>
-    <button class="button" id="all">All</button>
-    <button class="button" id="cakes">Cakes</button>
-    <button class="button" id="cupcakes">Cupcakes</button>
-    <button class="button" id="sweets">Sweets</button>
-    <button class="button" id="doughnuts">Doughnuts</button>
+    <button class="button" onclick="dispAll()" id="all">All</button>
+    <button class="button" onclick="dispCake()" id="cakes">Cakes</button>
+    <button class="button" onclick="dispCupCake()" id="cupcakes">Cupcakes</button>
+    <button class="button" onclick="dispSweet()" id="sweets">Sweets</button>
+    <button class="button" onclick="dispDoughnut()" id="doughnuts">Doughnuts</button>
+    
+    <br><br><br>
+        <input type="text" class="se" placeholder="item...">
+        <button type="submit" class="se"><i class="fa fa-search"></i></button>
+
+  
+ 
+    <div id="alll">
+        <div id="space" class="grid-container"  >
+        </div>
+        <div id="space2" class="grid-container"  >
+        </div>
+        <div id="space3" class="grid-container"  >
+        </div>
+        <div id="space4" class="grid-container"  >
+        </div>
+        </div>
     </center>
     </body>
 </html>
